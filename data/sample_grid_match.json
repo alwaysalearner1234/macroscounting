@@ -1,0 +1,49 @@
+{
+  "matches": [
+    {
+      "match_id": "c9-scrim-2025-001",
+      "focus_side": "red",
+      "teams": {
+        "blue": { "gold_diff_at_15": -820, "first_blood": false, "first_tower": false, "won": false },
+        "red": { "gold_diff_at_15": 820, "first_blood": true, "first_tower": true, "won": true }
+      },
+      "events": [
+        { "type": "dragon", "team": "red", "timestamp_seconds": 510 },
+        { "type": "voidgrubs", "team": "blue", "timestamp_seconds": 615 },
+        { "type": "rift_herald", "team": "red", "timestamp_seconds": 840 },
+        { "type": "baron", "team": "red", "timestamp_seconds": 1540 }
+      ],
+      "jungle_paths": {
+        "blue": [{ "minute": 0.5, "x": 3100, "y": 11800 }, { "minute": 2.2, "x": 7200, "y": 9300 }, { "minute": 4.7, "x": 10300, "y": 7100 }],
+        "red": [{ "minute": 0.4, "x": 11900, "y": 2800 }, { "minute": 2.5, "x": 8500, "y": 5600 }, { "minute": 4.8, "x": 5900, "y": 8100 }]
+      },
+      "wards": [
+        { "team": "red", "x": 8400, "y": 6900, "objective": "dragon", "within_60s_of_objective": true },
+        { "team": "blue", "x": 6700, "y": 8500, "objective": "voidgrubs", "within_60s_of_objective": true },
+        { "team": "red", "x": 12900, "y": 4200, "objective": "baron", "within_60s_of_objective": false }
+      ]
+    },
+    {
+      "match_id": "c9-scrim-2025-002",
+      "focus_side": "red",
+      "teams": {
+        "blue": { "gold_diff_at_15": -240, "first_blood": false, "first_tower": true, "won": true },
+        "red": { "gold_diff_at_15": 240, "first_blood": true, "first_tower": false, "won": false }
+      },
+      "events": [
+        { "type": "dragon", "team": "blue", "timestamp_seconds": 535 },
+        { "type": "voidgrubs", "team": "red", "timestamp_seconds": 605 },
+        { "type": "rift_herald", "team": "blue", "timestamp_seconds": 900 },
+        { "type": "baron", "team": "blue", "timestamp_seconds": 1485 }
+      ],
+      "jungle_paths": {
+        "blue": [{ "minute": 0.6, "x": 2800, "y": 11400 }, { "minute": 2.7, "x": 6500, "y": 8800 }, { "minute": 4.6, "x": 9700, "y": 6500 }],
+        "red": [{ "minute": 0.5, "x": 11600, "y": 3200 }, { "minute": 2.4, "x": 8800, "y": 6100 }, { "minute": 4.9, "x": 5400, "y": 7900 }]
+      },
+      "wards": [
+        { "team": "blue", "x": 8100, "y": 6500, "objective": "dragon", "within_60s_of_objective": true },
+        { "team": "red", "x": 7000, "y": 8700, "objective": "voidgrubs", "within_60s_of_objective": true }
+      ]
+    }
+  ]
+}
